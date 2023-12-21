@@ -45,6 +45,7 @@ class Test:
         driver.execute_script("arguments[0].scrollIntoView();", submit)
         submit.click()
         time.sleep(5)
+        driver.quit()
 
 
 
